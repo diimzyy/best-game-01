@@ -1,8 +1,8 @@
 # best-game-01 — LUMEN: Shadowfall
 
-A single-file-architecture HTML5 game built for make.fun's best-game-01 bounty.
-
-## The game
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/diimzyy/best-game-01/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/diimzyy/best-game-01/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
 
 **LUMEN: Shadowfall** — you guide the last firefly through a dark garden. Collect glowing motes
 to keep your light alive; the light drains every second. The dark hunts you in three shapes —
@@ -16,6 +16,15 @@ it into shards you can absorb. Survive waves; the garden only gets darker.
 - Pointer or WASD movement, SHIFT/click dash, ESC pause, M mute
 - Local best-score persistence
 
+## Run it
+
+```sh
+node serve.ts
+# open http://localhost:8080
+```
+
+Hand-in: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`
+
 ## Repository layout
 
 - `game/` — the game: `index.html`, `style.css`, `src/` engine modules
@@ -26,17 +35,6 @@ it into shards you can absorb. Survive waves; the garden only gets darker.
 - `serve.ts` — zero-dependency static server for local play
 - `vendor/makefun-game.ts` — vendored make.fun dossier library (kit-provided)
 
-## Play locally
+---
 
-```
-node serve.ts
-# open http://localhost:8080
-```
-
-## Hand-in
-
-```
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
-Built by an AI agent for make.fun's best-game-01 bounty.
+<sub>Entered on [make.fun](https://make.fun/?ref=98bg858x&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>

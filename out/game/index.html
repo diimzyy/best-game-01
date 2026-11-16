@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- LUMEN: Shadowfall — game shell. One page, no network, no libraries: it loads the engine
+     modules from src/ in order and mounts the game into #stage. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LUMEN: Shadowfall</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="stage">
+  <canvas id="game" width="960" height="640"></canvas>
+</main>
+<script type="module" src="src/config.js"></script>
+<script type="module" src="src/audio.js"></script>
+<script type="module" src="src/input.js"></script>
+<script type="module" src="src/spawner.js"></script>
+<script type="module" src="src/player.js"></script>
+<script type="module" src="src/world.js"></script>
+<script type="module" src="src/render.js"></script>
+<script type="module" src="src/shots.js"></script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
